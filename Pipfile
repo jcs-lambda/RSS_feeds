@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+ipykernel = "*"
+ipywidgets = "*"
+pylint = "*"
+autopep8 = "*"
+
+[packages]
+rss-parser = "*"
+requests = "*"
+fastapi = "*"
+uvicorn = "*"
+psycopg2-binary = "*"
+python-dotenv = "*"
+bs4 = "*"
+sqlalchemy = "*"
+pydantic = "*"
+newspaper3k = "*"
+
+[requires]
+python_version = "3.7"
